@@ -1,0 +1,22 @@
+.upper_sector{
+    width: 20%;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.upper_s_left{
+    align-items: flex-start;
+    position: relative;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+
+upper_s_right{
+    display: flex;
+    padding-left: 47px;
+    position:absolute;
+    align-items: flex-end;
+    top: 0;
+    left: 159px;
+}
