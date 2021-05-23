@@ -64,6 +64,15 @@ header{
     background-size: cover;
     background-position: center center;
 }
+.main-register{
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+    background-image:url(pics/regi.jpg) ;
+   -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
 .main-imgB{
     width: 100%;
     height: 100vh;
