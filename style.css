@@ -23,7 +23,7 @@ header{
     width: 100%;
     height: 100vh;
     padding-top: 0%;
-    background-image:url(family.jpg) ;
+    background-image:url(pics/family.jpg) ;
    -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -32,7 +32,52 @@ header{
     width: 100%;
     height: 100vh;
     padding-top: 0%;
-    background-image:url(note.jpg) ;
+    background-image:url(pics/note.jpg) ;
+   -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.main-imgDC{
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+    background-image:url(pics/deathC.jpg) ;
+   -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.main-imgL{
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+    background-image:url(pics/registerL.jpg) ;
+   -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.main-insurance{
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+    background-image:url(pics/risk.jpg) ;
+   -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.main-imgB{
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+    background-image:url(pics/savings.jpg) ;
+   -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.main-imgA{
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+    background-image:url(pics/aboutU.jpg) ;
    -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -145,6 +190,7 @@ background-color: #0077B5;
     /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
     justify-content: space-between;
     padding-left: 19px;
+    text-align: center;
 }
 
 .btn {
@@ -212,16 +258,7 @@ background-color: #0077B5;
     text-align: center;
     border-radius: 2px;
 }
-.box5{
-    width:250px;
-    height: 250px;
-    background: rgb(165, 172, 184);
-    display: inline-block;
-    font-size: 1.7rem;
-    text-align: center;
-    border-radius: 2px;
-    line-height: 55px;
-}
+
 .box6{
     width:250px;
     height: 250px;
