@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://kit.fontawesome.com/30e2c9c0af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!--nav bar-->
+     <header>
+        <div class="nav_bar">
+            <div class="nav_c_left">
+                <b><a href="index1.html">Bophelo Solutions</a></b>
+            </div>
+            <nav class="nav_container">
+                <ul class="nav_menu">
+                    <li class="home_btn"><a href="index1.html">Home</a></li>
+                    <li class="About_btn"><a href="index1.html">About Us</a></li>
+                    <li class="Login_btn"><a href="login.html">Login</a></li>
+                    <li class="Sign_btn"><a href="REGISTRATION PAGEv2.html">SignIn</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="upper_s_left">
+            <ul>
+                <li><a href="https://instagram.com/bophelosolutions?utm_medium=copy_link"><i
+                            class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/bophelosolution?s=21"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <!--end-->
+
+    <div class="main-register">
+
+    </div>
+
+    <div>
+
+        <div class="profileinfo">
+
+        <form action="/action_page.php">
+        <div class="container">
+            <h1>Upload Documents</h1>
+            <p>Please upload the relevant documents.</p>
+            <hr>
+            <br>
+        <form action="/action_page.php">
+		<label for="willFILE">PLEASE SUBMIT A CERTIFIED COPY OF YOUR I.D.</label>
+		<br><br>
+		<input type="file" id="willFILE" name="filename1">
+		<input type="submit">
+		<br><br>
+		<label for="secondDOC">PLEASE SUBMIT YOUR PROOF OF RESIDENCE</label>
+		<br><br>
+		<input type="file" id="secondDOC" name="filename2">
+		<input type="submit">
+		<br><br>
+		<label for="thirdDOC">PLEASE SUBMIT YOUR PROOF INSURANCE</label>
+		<br><br>
+		<input type="file" id="thirdDOC" name="filename3">
+		<input type="submit">
+		<br><br>
+            <hr>
+
+		<h1>NEXT OF KIN</h1>
+
+		<label type="text"> Do you have a next of kin? </label>
+		<br><br>
+		<label for="optionYES"> Yes </label><input type="checkbox" id="optionYES" name="yesBOX">
+		<br><br>
+		<label for="optionNO"> No </label><input type="checkbox" id="optionNO" name="noBOX">
+        <br><br>
+            <hr>
+
+
+            <!--<fieldset> -->
+            <h1> Next of Kin 1</h1>
+                <select name="nextofkin1"> <!-- with these placeholders i was thinking, when the user clicks "Other" then another input box pops up so the user can put their relation to the next of kin-->
+                    <option value ="years"> Who are they to you? </option>
+                    <option value ="father"> Father </option>
+                    <option value ="mother"> Mother </option>
+                    <option value ="brother"> Brother </option>
+                    <option value ="sister"> Sister </option>
+                    <option value ="husband"> Husband </option>
+                    <option value ="wife"> Wife </option>
+                    <option value ="son"> Son </option>
+                    <option value ="daughter"> Daughter </option>
+                    <option value ="uncle"> Uncle </option>
+                    <option value ="aunt"> Aunt </option>
+                    <option value ="other"> Other </option>
+                </select>
+                <br><br>
+
+            <label for="nextofkin1firstname"><b>First Name</b></label> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <input type="text" placeholder="Enter First Name" name="First Name" id="nextofkin1firstname" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for="nextofkin1lastname"><b>Last Name</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Last Name" name="Last Name" id="nextofkin1lastname" required>
+            <br><br>
+            <label for ="nextofkin1phonenumber"><b>Phone Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Phone Number" name="phonenumber" id="nextofkin1phonenumber" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for ="idnumber1"><b>ID Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter ID Number" name="idnumber" id="idnumber1" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <!--</fieldset>-->
+            <br>
+            <!--<fieldset>-->
+            <h1> Next of Kin 2</h1>
+                <select name="nextofkin2"> <!-- with these placeholders i was thinking, when the user clicks "Other" then another input box pops up so the user can put their relation to the next of kin-->
+                    <option value ="years"> Who are they to you? </option>
+                    <option value ="father"> Father </option>
+                    <option value ="mother"> Mother </option>
+                    <option value ="brother"> Brother </option>
+                    <option value ="sister"> Sister </option>
+                    <option value ="husband"> Husband </option>
+                    <option value ="wife"> Wife </option>
+                    <option value ="son"> Son </option>
+                    <option value ="daughter"> Daughter </option>
+                    <option value ="uncle"> Uncle </option>
+                    <option value ="aunt"> Aunt </option>
+                    <option value ="other"> Other </option>
+                </select>
+            <br><br>
+            <label for="nextofkin2firstname"><b>First Name</b></label> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <input type="text" placeholder="Enter First Name" name="First Name" id="nextofkin2firstname" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for="nextofkin2lastname"><b>Last Name</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Last Name" name="Last Name" id="nextofkin2lastname" required>
+            <br><br>
+            <label for ="nextofkin2phonenumber"><b>Phone Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter Phone Number" name="phonenumber" id="nextofkin2phonenumber" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <label for ="idnumber2"><b>ID Number</b></label>
+            <br><br>
+            <input type="text" placeholder="Enter ID Number" name="idnumber" id="idnumber2" required> <!-- so with this one i was thinking because when you sign up with your name and surname, this field and the last name are already filled in .-->
+            <br><br>
+            <!--</fieldset>-->
+           </form>
+        </div>
+    </form>
+            <a href="regpagev4.html" class="previous">&laquo; Previous</a>
+            <a href="#" class="submit">Submit &raquo;</a>
+        </div>
+
+        <br>
+
+    </div>
+     <section class="expert2">
+        <div class="a_wrapper2">
+
+
+        </div>
+    </section>
+
+
+<!--footer-->
+    <footer>
+        <div class="footer">
+
+            <span>Bophelo Solutions.LLC</span>
+            <p>We'd love to hear from you! Whether you'd like to get in touch, enquire about us,
+                use our services or reach out on behalf of the media.
+            </p>
+            <ul class="footer_items">
+                <li><a href="#"><i class="fas fa-envelope"></i>ContactUs</a></li>
+            </ul>
+            <hr>
+            <p>copyright &copy;2021 designed by <span>BopheloSolution</span></p>
+        </div>
+    </footer>
+
+</body>
+
+<style>
+
+    .profileinfo{
+            margin: auto;
+            width: 75%;
+            border: 3px solid #000000;
+            background: #FFFFFF;
+            padding: 10px;
+    }
+
+     a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+    }
+
+    a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .previous {
+        background-color: #0077B5;
+        color: white;
+    }
+
+    .submit {
+        background-color: #0077B5;
+        color: white;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .upper_sector{
+        top: 0%;
+        display: flex;
+        width: 100%;
+        height: 10px;
+        display: inline;
+        justify-content: space-between;
+
+    }
+    header{
+        height: 100px;
+        width: 100%;
+        z-index: 12;
+        position: fixed;
+    }
+    /*img style*/
+    #main{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/family.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .main-img{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/note.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .main-imgDC{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/deathC.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .main-imgL{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/registerL.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .main-insurance{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/risk.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .main-register{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/regi.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .main-imgB{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/savings.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .main-imgA{
+        width: 100%;
+        height: 100vh;
+        padding-top: 0%;
+        background-image:url(pics/aboutU.jpg) ;
+       -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    /*.content-area{
+        width: 100%;
+        position: relative;
+        top: 900px;
+        background:#ddd;
+        height:1500px;
+    }
+    /*.wrapper{
+        width: 1170px;
+        margin: 0 auto;
+    }*/
+    /*nav style*/
+    .upper_s_left li {
+        list-style: none;
+        margin: 0 15px;
+        display: inline-block;
+
+    }
+
+    .upper_s_left ul li .fab{
+       font-size: 25px;
+       line-height: 60px;
+       transition: .6s;
+       color: #000;
+
+    }
+    .upper_s_left ul li .fab:hover{
+      color: #fff;
+    }
+    .upper_s_left ul li a{
+       position: relative;
+       display: block;
+       width: 40px;
+       height: 40px;
+       border-radius: 50%;
+       background-color: rgba(159, 200, 201, 0.158);
+       text-align: center;
+       transition: .6s;
+       box-shadow: 0 5px 4px rgba(0, 0, 0,.5);
+       text-align: center;
+    }
+    .upper_s_left ul li a:hover{
+       transform: translate(0,-15px);
+    }
+    .upper_s_left ul li:nth-child(1) a:hover{
+       background-color: #e4405f;
+    }
+    .upper_s_left ul li:nth-child(2) a:hover{
+    background-color: #55acee;
+    }
+    .upper_s_left ul li:nth-child(3) a:hover{
+    background-color: #3b5999;
+    }
+    .upper_s_left ul li:nth-child(4) a:hover{
+    background-color: #0077B5;
+    }
+    .upper_s_right{
+        top: 0;
+        padding-left: 120%;
+    }
+    .upper_s_right .a{
+        top: 0;
+        display: inline-block;
+        list-style: none;
+        margin: 0 15px;
+        align-items: flex-end;
+    }
+    .nav_c_left a {
+        font-size: 2rem;
+        line-height: 2;
+        text-decoration: none;
+        letter-spacing: 1.2px;
+        color: black;
+
+    }
+    .nav_bar{
+        width: 100%;
+        height: 55px;
+        background: #3b5999;
+        display: flex;
+        border:  0 solid;
+        box-shadow: 0 1 2 3;
+        justify-content: space-between;
+
+    }
+    .nav_menu a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: black;
+        line-height: 2;
+        justify-content: space-evenly;
+    }
+    .nav_menu li{
+        list-style: none;
+        display: inline-flex;
+        padding: 5px;
+        padding-left: -2;
+    }
+    .nav_container{
+        padding-left: 1%
+    }
+    /*end nav*/
+    /*box style*/
+    .box-container{
+        display: inline-flexbox;
+        /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+        justify-content: space-between;
+        padding-left: 19px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background: #111;
+        color: #f5f5f5;
+        border: 2px solid #111;
+        font-size: 16px;
+        font-weight: 600;
+        outline: none;
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+
+    }
+    .btn{
+        margin-top: 15px
+    }
+    .btn button:hover{
+        color: #111;
+        background: #f5f5f5;
+    }
+    .fas{
+        font-size: 2.2rem;
+    }
+    .fa{
+        font-size: 2.2rem;
+    }
+    .box1{
+        width:250px;
+        height: 250px;
+        background: rgb(165, 172, 184);
+        display: inline-block;
+        font-size: 1.7rem;
+        text-align: center;
+        border-radius: 2px;
+        line-height: 35px;
+    }
+    .box2{
+        width:250px;
+        height: 250px;
+        background: rgb(165, 172, 184);
+        display: inline-block;
+        font-size: 1.7rem;
+        text-align: center;
+        border-radius: 2px;
+        line-height: 55px;
+    }
+    .box3{
+        width:250px;
+        height: 250px;
+        background: rgb(165, 172, 184);
+        display: inline-block;
+        font-size: 1.7rem;
+        text-align:center;
+        border-radius: 2px;
+        line-height: 45px;
+    }
+    .box4{
+        width:250px;
+        height: 250px;
+        background: rgb(165, 172, 184);
+        display: inline-block;
+        font-size: 1.7rem;
+        text-align: center;
+        border-radius: 2px;
+    }
+
+    .box6{
+        width:250px;
+        height: 250px;
+        background: rgb(165, 172, 184);
+        display: inline-block;
+        font-size: 1.7rem;
+        text-align: center;
+        border-radius: 2px;
+        line-height: 55px;
+    }
+    /**/
+    .offers{
+        text-align: center;
+        font-size: 2rem;
+    }
+    /*sliding part */
+    .expert{
+        min-width: 1026px;
+        display: flex;
+        padding-top: 190px;
+        padding-bottom: 190px;
+        border: 1 solid;
+        border-style: hidden;
+        top: 23px;
+        background: rgb(165, 172, 184);
+    }
+    .a_wrapper{
+        max-width: 864px;
+        margin-left: 64px;
+        position: relative;
+        align-items: center;
+        padding-left: 160px;
+    }
+    .expert2{
+        min-width: 1026px;
+        display: flex;
+        padding-top: 190px;
+        padding-bottom: 190px;
+        border: 1 solid;
+        border-style: hidden;
+        top: 23px;
+        background: rgb(255, 255, 255);
+    }
+    .a_wrapper2{
+        max-width: 864px;
+        margin-left: 64px;
+        position: relative;
+        align-items: center;
+        padding-left: 160px;
+    }
+    h2{
+        font-size: 2.6rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .far{
+        font-size: 4rem;
+    }
+    .footer{
+        min-width: 1026px;
+        display: flex;
+        padding-top: 190px;
+        padding-bottom:10px;
+        border: 1 solid;
+        border-style: hidden;
+        background: #3b5999;
+        color: white;
+    }
+    .wrapper{
+        min-width: 1026px;
+        display: flex;
+        padding-top: 190px;
+        padding-bottom: 190px;
+        border: 1 solid;
+        border-style: hidden;
+        top: 23px;
+        background: rgba(31, 43, 63, 0.575);
+
+    }
+    .covid19{
+        min-width: 1026px;
+        display: flex;
+        padding-top: 190px;
+        padding-bottom: 190px;
+        border: 1 solid;
+        border-style: hidden;
+        top: 23px;
+        background: rgba(143, 143, 143, 0.582);
+    }
+    /*form style*/
+
+    section {
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 255, 255);
+    }
+
+    .step {
+      display: none;
+    }
+    .step.active {
+      display: block;
+    }
+    .form-group {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .form-group input {
+      width: 27%;
+      border: 1.5px solid rgba(128, 128, 128, 0.418);
+      padding: 5px;
+      font-size: 18px;
+      margin-top: 5px;
+      border-radius: 4px;
+    }
+
+    button.next-btn,
+    button.previous-btn,
+    button.submit-btn {
+      float: right;
+      margin-top: 20px;
+      padding: 10px 30px;
+      border: none;
+      outline: none;
+      background-color: rgb(180, 220, 255);
+      font-family: "Montserrat";
+      font-size: 18px;
+      cursor: pointer;
+      /* text-align: right; */
+    }
+    button.previous-btn {
+      float: left;
+    }
+    button.submit-btn {
+      background-color: rgba(3, 3, 3, 0.795);
+    }
+    .headings{
+        display: flex;
+        position: relative;
+        top: 9px;
+
+    }
+
+</style>
+
+</html>
